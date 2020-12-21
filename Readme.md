@@ -45,3 +45,6 @@ Usage (make)
         
     alphatoe
         Links required object files together into an executable called alphatoe
+        
+    clean
+        Deletes all compiles executables and object files
