@@ -1,29 +1,47 @@
+A program that allows a user to play tic tac toe against a computer.
+
 Files
 
-    ttt2.c
-        Contains all functions required by the assignment
-    show_node
-        Displays a list nodes given on the command line - the input should be the index in htable
-    count_nodes
+    ttt1.c & ttt2.c
+        Contains all functions required for the ai to make decisions
+        
+    ttt.h
+        Contains function declarations for both ttt.c files
+        
+    show_node.c
+        Displays a list nodes given on the command line - the input should be the index in hashtable
+        
+    count_nodes.c
         Counts the number of nodes that have been initialized
+        
+    alphatoe.c
+        The main executable for playing a game of tic tac toe against the computer
 
-Usage
+Usage (make)
 
-    make all
+    all
         Compiles all executables and object files
-    make ttt1.o
+        
+    ttt1.o
         Compiles the functions in the ttt1 file into an object file
-    make ttt2.o
+        
+    ttt2.o
         Compiles the functions in the ttt2 file into an object file
-    make show_node.o
+        
+    show_node.o
         Compiles show_node.c into an object file
-    make show_node
-        Links required object files together into an executable called show_node
-    make count_nodes.o
+        
+    count_nodes.o
         Compiles count_nodes.c into an object file
-    make count_nodes
-        Links required object files together into an executable called count_nodes
-    make alphatoe.o
+        
+    alphatoe.o
         Compiles alphatoe.c into an object file
-    make alphatoe
+        
+    show_node
+        Links required object files together into an executable called show_node
+        
+    count_nodes
+        Links required object files together into an executable called count_nodes
+        
+    alphatoe
         Links required object files together into an executable called alphatoe
